@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.preference.EditTextPreference
+        android:defaultValue="01-01-2019"
+        android:key="start_date"
+        android:summary="MM-DD-YYYY"
+        android:title="Start Date"/>
+
+    <androidx.preference.EditTextPreference
+        android:defaultValue="01-01-2019"
+        android:key="end_date"
+        android:summary="MM-DD-YYYY"
+        android:title="End Date" />
+</androidx.preference.PreferenceScreen>

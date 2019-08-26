@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dual Camera</string>
+    <string name="record">Record</string>
+    <string name="play">Play</string>
+    <string name="settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="view_files">View Files</string>
+</resources>

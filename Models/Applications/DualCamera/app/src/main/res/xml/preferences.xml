@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.preference.SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="switch"
+        android:summary="Allow the algorithm to determine the best highlight duration."
+        android:title="Automatic Duration Detection" />
+
+    <androidx.preference.EditTextPreference
+        android:defaultValue="-1"
+        android:key="min_duration"
+        android:summary="Not used if Automatic Duration Detection is toggled."
+        android:title="Minimum Highlight Duration"/>
+
+    <androidx.preference.EditTextPreference
+        android:defaultValue="-1"
+        android:key="max_duration"
+        android:summary="Not used if Automatic Duration Detection is toggled."
+        android:title="Maximum Highlight Duration" />
+</PreferenceScreen>
