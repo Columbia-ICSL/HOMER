@@ -224,7 +224,7 @@ def genHighlights(index):
     # arg5 : int representing max highlight duration
     args = [getBackCameraFilename(index), getFrontCameraFilename(index), getHighlightDir(index), 
             getMinDuration(), getMaxDuration()]
-    command = "python3 main.py " + ' '.join(args)
+    command = "python3 ../HL_extraction/main.py " + ' '.join(args)
     print("Executing %s" % command)
     os.system(command)
 

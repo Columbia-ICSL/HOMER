@@ -9,7 +9,6 @@ import shutil
 from multiprocessing import Process, Queue
 
 ## Globals ##
-
 SERVER_HOST = '23.239.22.55'   # IP address of the ICSL server
 # SERVER_HOST = '209.2.214.30'   # IP address of my laptop
 BACK_PORT = 8274               # port number for the back camera video
@@ -243,7 +242,7 @@ def genHighlights(index):
     # arg6 : bool to allow multiple highlights or not 
     args = [getBackCameraFilename(index), getFrontCameraFilename(index), getHighlightDir(index), 
             getMinDuration(), getMaxDuration(), 'True']
-    command = 'python3 main.py ' + ' '.join(args)
+    command = 'python3 ../HL_extraction/main.py ' + ' '.join(args)
     print('Executing %s' % command)
     os.system(command)
 
