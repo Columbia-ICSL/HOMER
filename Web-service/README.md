@@ -11,7 +11,7 @@ Here are the steps to follow in order to successfully have the HOMER web-service
 3. Set-up the python environment by either following one of the two approaches:
 	* Install conda on your server and create an environment using the *env.yml* file with the following command: **conda env create -f env.yml**
 	* Import each library listed in the `env.yml` file on the terminal with pip install.
-4. Open each of the three files `/src/montage_server.py`,  `/src/par_server.py` and  `/src/seq_server.py and edit *SERVER_HOST* and *CLIENT_HOST* parameters of lines 12 and 21 with your own case.
+4. Open each of the three files `/src/montage_server.py`,  `/src/par_server.py` and  `/src/seq_server.py` and edit *SERVER_HOST* and *CLIENT_HOST* parameters of lines 12 and 21 with your own case.
 5. In order to prevent any conflict with matplotlib library, run the following command: **export DISPLAY=:0**
 6. Run one of the following files:
 	* `/src/montage_server.py`: for running Montage application &amp; generate a montage video file containing the highlights of all the videos presented in input
