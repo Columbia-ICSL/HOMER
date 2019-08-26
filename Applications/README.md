@@ -1,4 +1,4 @@
-# Android Applications Leveraging HOMER
+# HOMER---Applications
 
 This repository contains the source code for the dual camera and montage applications for Android. Currently, both applications are only tested on the HTC One M8 with the primary dependency for the dual camera application being the ability to programmatically record from both the front and back camera simultaneously. 
 
