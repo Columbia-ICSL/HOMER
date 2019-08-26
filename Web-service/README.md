@@ -15,7 +15,7 @@ Here are the steps to follow in order to successfully have the HOMER web-service
 5. In order to prevent any conflict with matplotlib library, run the following command: **export DISPLAY=:0**
 6. Run one of the following files:
 	* `/src/montage_server.py`: for running Montage application &amp; generate a montage video file containing the highlights of all the videos presented in input
-	* `/src/par_server.py`: for running DualCamera application in parallel -> generate a single highlight of the video presented in input (along with the user's face video). Up to two video highlight extraction can be performed in parallel, decreasing the computation time
+	* `/src/par_server.py`: for running DualCamera application in parallel &amp; generate a single highlight of the video presented in input (along with the user's face video). Up to two video highlight extraction can be performed in parallel, decreasing the computation time
 	* `/src/seq_server.py`: for running DualCamera application sequentially.
 7. The sever is now listening on its ports any incoming data from the client having the following respective parameters: 
 	* *Scene Video*: video to be highlight extracted. Both video frames (10fps) and audio signals (1 kHz) are extracted as distinct raw signals inputs for the highlight extraction pipeline.
